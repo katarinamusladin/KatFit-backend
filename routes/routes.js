@@ -11,7 +11,7 @@ router.get('/days', async (req, res) => {
     const days = await db('days').select('id', 'name', 'focus as target_area', 'image');
     res.json(days);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch workout days' }); // Use 500 for server errors
+    res.status(500).json({ error: 'Failed to fetch workout days' }); 
   }
 });
 
@@ -29,7 +29,7 @@ router.get('/days/:day_id', async (req, res) => {
     // Fetch exercises for the specific day
     const exercises = await db('exercises').where({ day_id: dayId }).select('id', 'name', 'sets', 'reps', 'weight', 'image', 'video_url');
 
-    // Combine day details with exercises
+   
     res.json({
       id: day.id,
       name: day.name,
@@ -38,7 +38,7 @@ router.get('/days/:day_id', async (req, res) => {
       exercises: exercises
     });
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch workout day details' }); // Use 500 for server errors
+    res.status(500).json({ error: 'Failed to fetch workout day details' }); 
   }
 });
 
