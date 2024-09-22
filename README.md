@@ -10,6 +10,8 @@ KatFit is a fitness app designed to help users track their workouts and progress
 
 ### STEP 1: Clone the repos
 - Clone KatFit front end, and back end repositories.
+- My front end link (https://github.com/katarinamusladin/KatFit)
+
 
 ### STEP 2: Environment Configuration
 - Create a **.env file** in the back end repo with the following content:
