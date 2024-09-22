@@ -1,6 +1,6 @@
 # KatFit
 
-KatFit is a fitness app designed to help Katarina (later will implement for more users) track their workouts and progress. 
+KatFit is a fitness app designed to help Katarina (later will implement for more users) track her workouts and progress. 
 
 ## Author
 
