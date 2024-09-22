@@ -15,7 +15,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "goblet-pause-squat.jpg",
-      video_url: "https://example.com/goblet-pause-squat",
+      video_url: "https://www.youtube.com/embed/8jeMsehQJK0?si=37Odhhqy6TbxzavM",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "goblet-squat.jpg",
-      video_url: "https://example.com/goblet-squat",
+      video_url: "https://www.youtube.com/embed/pEGfGwp6IEA?si=VPod2jWtvqiZhkNS",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "split-squat.jpg",
-      video_url: "https://example.com/split-squat",
+      video_url: "https://www.youtube.com/embed/hXpGSa5HYqY?si=c2EHFc7Zf2EDfKQM",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "pause-front-dumbbell-squat.jpg",
-      video_url: "https://example.com/pause-front-squat",
+      video_url: "https://www.youtube.com/embed/7CuKlSgu1B0?si=jTUXr0T0HKGaiIVM",
     },
 
     //  Day 2 (Upper Body)
@@ -57,7 +57,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "bent-over-dumbbell-rows.jpg",
-      video_url: "https://example.com/bent-over-rows",
+      video_url: "https://www.youtube.com/embed/6gvmcqr226U?si=x0En5oI3mHCtfk5x",
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "shoulder-press.jpg",
-      video_url: "https://example.com/shoulder-press",
+      video_url: "https://www.youtube.com/embed/HzIiNhHhhtA?si=QO-xy3-sampwS5_f",
     },
     {
       id: 7,
@@ -77,7 +77,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "tricep-kickbacks.jpg",
-      video_url: "https://example.com/tricep-kickbacks",
+      video_url: "https://www.youtube.com/embed/m_UlDFNX4mk?si=kR1OWoPm_M2pWLfF",
     },
     {
       id: 8,
@@ -87,7 +87,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "chest-flyes.jpg",
-      video_url: "https://example.com/chest-flyes",
+      video_url: "https://www.youtube.com/embed/Nhvz9EzdJ4U?si=5z-wjfvujQCvYRVk",
     },
 
     //  Day 3 (Glutes)
@@ -99,7 +99,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "deadlift.jpg",
-      video_url: "https://example.com/deadlift",
+      video_url: "https://www.youtube.com/embed/plb5jEO4Unw?si=EKBZW5SlanF3sH5Z",
     },
     {
       id: 10,
@@ -109,7 +109,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "hip-thrust.jpg",
-      video_url: "https://example.com/hip-thrust",
+      video_url: "https://www.youtube.com/embed/Zp3mZV6Plyg?si=54TgNPKk3XSLH-TN",
     },
     {
       id: 11,
@@ -119,7 +119,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "bulgarian-split-squat.jpg",
-      video_url: "https://example.com/bulgarian-split-squat",
+      video_url: "https://www.youtube.com/embed/vLuhN_glFZ8?si=G8OMnETOmJUtW0ey",
     },
     {
       id: 12,
@@ -129,7 +129,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "sumo-squat.jpg",
-      video_url: "https://example.com/sumo-squats",
+      video_url: "https://www.youtube.com/embed/5cyIfPETLJk?si=fgLfRoYpIb7oKdBq",
     },
 
     // Inserts seed entries for Day 4 (HIIT Cardio)
@@ -141,7 +141,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "high-knees.jpg",
-      video_url: "https://example.com/high-knees",
+      video_url: "https://www.youtube.com/embed/sTvekaq6vOU?si=XU3Y0ELZB2tUDMdq",
     },
     {
       id: 14,
@@ -151,7 +151,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "rotating-planks.jpg",
-      video_url: "https://example.com/rotating-planks",
+      video_url: "https://www.youtube.com/embed/VBd6DBVNUYg?si=gcg8oE3DsGdTsx22",
     },
     {
       id: 15,
@@ -161,7 +161,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "touchdown-pop-squat.jpg",
-      video_url: "https://example.com/touchdown-pop-squat",
+      video_url: "https://www.youtube.com/embed/EjMVgmjOkZM?si=r7O5kcH7ZJerQBiU",
     },
     {
       id: 16,
@@ -171,7 +171,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "mountain-climbers.jpg",
-      video_url: "https://example.com/mountain-climbers",
+      video_url: "https://www.youtube.com/embed/cnyTQDSE884?si=AWWxBgvTmutXTLJv",
     },
     {
       id: 17,
@@ -181,7 +181,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "lateral-jump-squats.jpg",
-      video_url: "https://example.com/lateral-jump-squats",
+      video_url: "https://www.youtube.com/embed/--CHVAQ1_Kg?si=U28iwoGRb4oJpdEY",
     },
 
     // Day 5 (Full Body)
@@ -193,7 +193,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "single-arm-shoulder-press.jpg",
-      video_url: "https://example.com/single-arm-press",
+      video_url: "https://www.youtube.com/embed/FUwme_oBDsA?si=zhXQiEkl6x3AHgcy",
     },
     {
       id: 19,
@@ -203,7 +203,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "dumbbell-good-mornings.jpg",
-      video_url: "https://example.com/dumbbell-good-mornings",
+      video_url: "https://www.youtube.com/embed/wUbsMNkkpLk?si=9Tsws0f6GwBbhpQ1",
     },
     {
       id: 20,
@@ -213,7 +213,7 @@ export async function seed(knex) {
       reps: 12,
       weight: 0,
       image: "squat-bicep-curls.jpg",
-      video_url: "https://example.com/squat-bicep-curls",
+      video_url: "https://www.youtube.com/embed/Btoh_Jax7jA?si=V4_2mersreYSiv00",
     },
   ]);
 }
