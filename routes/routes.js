@@ -38,7 +38,7 @@ router.get('/days/:day_id', async (req, res) => {
       exercises: exercises
     });
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch workout day details' }); 
+    res.status(404).json({ error: 'Failed to fetch workout day details' }); 
   }
 });
 

@@ -14,7 +14,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "goblet-pause-squat.jpg",
       video_url: "https://example.com/goblet-pause-squat",
     },
     {
@@ -24,7 +24,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "goblet-squat.jpg",
       video_url: "https://example.com/goblet-squat",
     },
     {
@@ -34,7 +34,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "split-squat.jpg",
       video_url: "https://example.com/split-squat",
     },
     {
@@ -44,7 +44,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "pause-front-dumbbell-squat.jpg",
       video_url: "https://example.com/pause-front-squat",
     },
 
@@ -56,7 +56,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "bent-over-dumbbell-rows.jpg",
       video_url: "https://example.com/bent-over-rows",
     },
     {
@@ -66,7 +66,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "shoulder-press.jpg",
       video_url: "https://example.com/shoulder-press",
     },
     {
@@ -76,7 +76,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "exercise-image.jpg",
+      image: "tricep-kickbacks.jpg",
       video_url: "https://example.com/tricep-kickbacks",
     },
     {
@@ -86,7 +86,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "chest-flyes.jpg",
       video_url: "https://example.com/chest-flyes",
     },
 
@@ -98,7 +98,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "deadlift.jpg",
       video_url: "https://example.com/deadlift",
     },
     {
@@ -108,7 +108,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "hip-thrust.jpg",
       video_url: "https://example.com/hip-thrust",
     },
     {
@@ -118,7 +118,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "bulgarian-split-squat.jpg",
       video_url: "https://example.com/bulgarian-split-squat",
     },
     {
@@ -128,7 +128,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "sumo-squat.jpg",
       video_url: "https://example.com/sumo-squats",
     },
 
@@ -140,7 +140,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "high-knees.jpg",
       video_url: "https://example.com/high-knees",
     },
     {
@@ -150,7 +150,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "rotating-planks.jpg",
       video_url: "https://example.com/rotating-planks",
     },
     {
@@ -160,7 +160,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "touchdown-pop-squat.jpg",
       video_url: "https://example.com/touchdown-pop-squat",
     },
     {
@@ -170,7 +170,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "mountain-climbers.jpg",
       video_url: "https://example.com/mountain-climbers",
     },
     {
@@ -180,7 +180,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "lateral-jump-squats.jpg",
       video_url: "https://example.com/lateral-jump-squats",
     },
 
@@ -192,7 +192,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "single-arm-shoulder-press.jpg",
       video_url: "https://example.com/single-arm-press",
     },
     {
@@ -202,7 +202,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "dumbbell-good-mornings.jpg",
       video_url: "https://example.com/dumbbell-good-mornings",
     },
     {
@@ -212,7 +212,7 @@ export async function seed(knex) {
       sets: 4,
       reps: 12,
       weight: 0,
-      image: "path/to/exercise-image.jpg",
+      image: "squat-bicep-curls.jpg",
       video_url: "https://example.com/squat-bicep-curls",
     },
   ]);
